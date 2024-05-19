@@ -23,4 +23,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
 f = factorial(n)
-print(f"El factorial de {n} es {f}")
+if f == "Error":
+    print(f)
+else:
+    print(f)
